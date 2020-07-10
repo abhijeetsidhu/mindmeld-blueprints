@@ -447,7 +447,7 @@ def pay_creditcard_handler(request, responder):
             responder.reply(
                 "What amount do you want to pay off? "
                 "You can choose to make a minimum payment of ${min} up"
-                " to the total balance of ${total_balance}."
+                " to the total balance of ${total_balance} or any other amount."
             )
     else:
         responder.reply(
